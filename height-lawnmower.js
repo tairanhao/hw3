@@ -18,7 +18,7 @@ function draw() {
     h = h + 3;
   }
 
-  if (random(100) > 99.9) {
+  if ( h > 13) {
     fill(255);
     rect(0, 0, width, height-15);
     h = 10;
@@ -26,8 +26,4 @@ function draw() {
 
   fill(40, 100, 60);
   rect(0, height-10, width, 10);
-  
-  if(h > 20){
-    h = 10
-  }
 }
